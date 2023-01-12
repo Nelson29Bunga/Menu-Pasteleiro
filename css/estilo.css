@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+:root{
+    --tipo-de-letra: "Nunito", Helvetica, arial, sans-sarif;
+    --cor_s1: #ffd942c4;
+    --cor_s2: #f6a56f;
+    --coe_s3: #1ebb8c;
+    --cor_s4: #b0ff42;
+    --branca:#fff;
+    --preta: black;
+    --cor_s5: rgb(91, 80, 19);
+    --cor_s6: rgb(231, 243, 242);
+    --cor_s7: rgb(195, 225, 222);
+}
+body{
+    background-color: var(--cor_s1);
+    font-family: var(--tipo-de-letra);
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: var(--cor_s5);
+}
+/*MENU*/
+
+.menu-big{
+    background-color: var(--cor_s6);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.meu_logo{
+    margin: 10px;
+    
+}
+.nav_lista{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.nav_link{
+    padding: 20px 10px;
+}
+.intro{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+hr{
+    border: none;
+    background-color: maroon;
+    height: 2px;
+    width: 140px;
+    margin: 0 auto;
+}
+.foot{
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
